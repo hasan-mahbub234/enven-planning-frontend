@@ -90,7 +90,6 @@ export default function Page() {
         {/* Suspense boundaries for heavy components */}
         <Suspense fallback={<HeroSkeleton />}>
           <VerticalLogoMarquee />
-          <Hero />
         </Suspense>
         <TwoColumnStickySection />
         <Features />

@@ -171,7 +171,7 @@ export function VerticalLogoMarquee() {
             <div className="hidden lg:flex w-full relative">
               <div className="relative w-full flex justify-center items-center min-h-[600px]">
                 <div className="absolute left-[40%] top-1/2 -translate-y-1/2 -translate-x-1/2 w-[25%]">
-                  <div className="relative h-[600px] overflow-hidden rounded-2xl transform -rotate-[20deg] origin-center">
+                  <div className="relative h-[600px] overflow-hidden transform -rotate-[20deg] origin-center">
                     <div className="absolute top-0 left-0 right-0 h-12 bg-gradient-to-b from-black to-transparent z-10"></div>
                     <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-black to-transparent z-10"></div>
                     <div
@@ -195,7 +195,7 @@ export function VerticalLogoMarquee() {
                 </div>
 
                 <div className="absolute right-[30%] top-1/2 -translate-y-1/2 translate-x-1/2 w-[25%]">
-                  <div className="relative h-[600px] overflow-hidden rounded-2xl transform -rotate-[20deg] origin-center">
+                  <div className="relative h-[600px] overflow-hidden transform -rotate-[20deg] origin-center">
                     <div className="absolute top-0 left-0 right-0 h-12 bg-gradient-to-b from-black to-transparent z-10"></div>
                     <div className="absolute bottom-0 left-0 right-0 h-12 bg-gradient-to-t from-black to-transparent z-10"></div>
                     <div
@@ -217,41 +217,6 @@ export function VerticalLogoMarquee() {
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Content Area with Bubbles */}
-          <div className="w-full lg:w-1/2 relative z-20 flex items-center justify-center">
-            <div className="flex flex-col items-center lg:items-start text-center lg:text-left relative z-10">
-              <div className="hidden md:block">
-                <h2 className="text-[110px] font-bold ml-[-30px] font-jost">
-                  Where{" "}
-                  <span className="bg-white px-1 text-black font-extrabold">
-                    Chaos
-                  </span>
-                </h2>
-                <p className="text-5xl font-bold">
-                  <span className="bg-pink-600 px-1">Gets</span> Organized.
-                </p>
-              </div>
-
-              <div className="md:hidden text-start ml-[-40px]">
-                <h2 className="text-4xl font-bold font-jost">
-                  Where{" "}
-                  <span className="bg-white px-1 text-black font-extrabold">
-                    Chaos
-                  </span>
-                </h2>
-                <p className="text-2xl font-bold">
-                  <span className="bg-pink-600 px-1">Gets</span> Organized.
-                </p>
-              </div>
-
-              <div className="mt-6">
-                <Button variant="uiverseGold">
-                  <Link href="#contact">Contact Now</Link>
-                </Button>
               </div>
             </div>
           </div>
